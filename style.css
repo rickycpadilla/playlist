@@ -1,0 +1,66 @@
+html {
+  background-color: black;
+}
+
+#tester {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  top: 50%;
+  left: 45%;
+  font-family: sans-serif;
+}
+
+/*#album1 img {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 27%;
+  left: 43%;
+  box-shadow: 5px 5px 5px black;
+}*/
+
+h1 {
+  font-family: sans-serif;
+}
+
+#album2 img {
+  display: none; /*erase this line to show artwork*/
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 35%;
+  left: 33%;
+  box-shadow: 5px 5px 5px black;
+}
+
+#album3 img {
+  display: none; /*erase this line to show artwork*/
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 35%;
+  left: 57%;
+  box-shadow: 3px 3px 3px #2B2B2B;
+}
+
+@media screen and (min-width: 401px) {
+  #album1 img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 27%;
+    left: 43%;
+    box-shadow: 3px 3px 3px #2B2B2B;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #album1 img {
+    position: absolute;
+    width: 100%;
+    top: 1%;
+    height: relative;
+    box-shadow: 3px 3px 3px #2B2B2B;
+  }
+}

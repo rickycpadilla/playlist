@@ -1,0 +1,76 @@
+{
+"results": [
+{
+"id": 1,
+"title": "Southland Mission",
+"artist": "Phil Cook",
+"cover_art": "southland_mission.jpg"
+},
+{
+"id": 2,
+"title": "Such Jubilee",
+"artist": "Mandolin Orange",
+"cover_art": "such_jubilee.jpg"
+},
+{
+"id": 3,
+"title": "Who's Feeling Young Now?",
+"artist": "Punch Brothers",
+"cover_art": "feeling_young.jpg"
+},
+{
+"id": 4,
+"title": "Beneath the Skin",
+"artist": "Of Monsters and Men",
+"cover_art": "beneath_the_skin.jpg"
+},
+{
+"id": 5,
+"title": "Sigh No More",
+"artist": "Mumford and Sons",
+"cover_art": "sigh_no_more.jpg"
+},
+{
+"id": 6,
+"title": "Orchids and Violence",
+"artist": "Michael Daves",
+"cover_art": "orchids_and_violence.jpg"
+},
+{
+"id": 7,
+"title": "Dookie",
+"artist": "Green Day",
+"cover_art": "dookie.jpg"
+},
+{
+"id": 8,
+"title": "A Rush of Blood to the Head",
+"artist": "Coldplay",
+"cover_art": "rush.jpg"
+},
+{
+"id": 9,
+"title": "Thriller",
+"artist": "Michael Jackson",
+"cover_art": "thriller.jpg"
+},
+{
+"id": 10,
+"title": "Take Off Your Pants and Jacket",
+"artist": "Blink 182",
+"cover_art": "take.jpg"
+},
+{
+"id": 11,
+"title": "Dreams",
+"artist": "Beck",
+"cover_art": "dreams.jpg"
+},
+{
+"id": 12,
+"title": "Weezer",
+"artist": "Weezer",
+"cover_art": "weezer.jpg"
+}
+]
+}
