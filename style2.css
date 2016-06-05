@@ -1,5 +1,6 @@
 html {
   background-color: #EEEEEE;
+  font-family: sans-serif;
 }
 
 body {
@@ -148,4 +149,5 @@ h3 {
   margin-left: 100px;
   background-color: #EEEEEE;
   border: 1px solid #363636;
+  overflow: scroll;
 }
