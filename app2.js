@@ -1,14 +1,14 @@
 var httpRequest = new XMLHttpRequest();
 httpRequest.onreadystatechange = function(){
     if (httpRequest.readyState === 4 && httpRequest.status < 400) {
-         var albumArr = JSON.parse(httpRequest.responseText).results;
+         var albumArr = JSON.parse(httpRequest.responseText).items;
          var scroller = document.getElementById("scroller");
          var bin = document.getElementById("bin");
          var leftButton = document.getElementById("leftButton");
          var rightButton = document.getElementById("rightButton");
          for (var i = 0; i < albumArr.length; i++) {
            var smallImg = document.createElement("img");
-           smallImg.src = "images/" + albumArr[i].cover_art;
+           smallImg.src = albumArr[i].images[0].url;
            scroller.appendChild(smallImg);
            function addEvList(param1, param2){
              return param1.addEventListener("click", function(event){
@@ -17,7 +17,7 @@ httpRequest.onreadystatechange = function(){
              bin.appendChild(p)
               })
            };
-           addEvList(smallImg, albumArr[i].title);
+           addEvList(smallImg, albumArr[i].name);
         };
         leftButton.addEventListener("click", function(){
              location.reload();
@@ -32,5 +32,5 @@ httpRequest.onreadystatechange = function(){
         })
     }
 };
-httpRequest.open('GET', 'https://lit-fortress-6467.herokuapp.com/object');
+httpRequest.open('GET', 'https://api.spotify.com/v1/artists/1dyGPAYZZHHW6WIqwKN5QF/albums');
 httpRequest.send();
